@@ -1,5 +1,5 @@
-============================
-Soporte de ventas (Helpdesk)
-============================
+=====================
+Ventas. Soporte - CRM
+=====================
 
 Gestión de soporte relacionado con ventas - CRM
