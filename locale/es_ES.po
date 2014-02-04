@@ -39,30 +39,30 @@ msgid "Write User"
 msgstr "Usuario modificación"
 
 msgctxt "model:ir.action,name:act_alls_sale_helpdesk"
-msgid "All Helpdesk"
+msgid "All Helpdesks"
 msgstr "Todos los soportes"
 
 msgctxt "model:ir.action,name:act_sale_helpdesk"
-msgid "Helpdesk"
+msgid "Helpdesks"
 msgstr "Soporte"
 
 msgctxt "model:ir.action,name:act_sale_helpdesk_manager"
-msgid "Sale Helpdesk"
+msgid "Sale Helpdesks"
 msgstr "Soporte de venta"
 
 msgctxt "model:ir.action,name:act_sale_helpdesk_sale_form"
-msgid "Helpdesk"
+msgid "Helpdesks"
 msgstr "Soporte"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_sale_helpdesk_domain_sale_helpdesk_all_my"
-msgid "All My Helpdesk"
+msgid "All My Helpdesks"
 msgstr "Todos mis soportes"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_sale_helpdesk_domain_sale_helpdesk_open"
 msgid "Open"
-msgstr "Abrir"
+msgstr "Abiertos"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_sale_helpdesk_domain_sale_helpdesk_pending"
@@ -75,15 +75,15 @@ msgid "Unreads"
 msgstr "No leidos"
 
 msgctxt "model:ir.ui.menu,name:menu_sale_all_helpdesk"
-msgid "All Helpdesk"
+msgid "All Helpdesks"
 msgstr "Todos los soportes"
 
 msgctxt "model:ir.ui.menu,name:menu_sale_helpdesk"
-msgid "Helpdesk"
+msgid "Helpdesks"
 msgstr "Soporte"
 
 msgctxt "model:ir.ui.menu,name:menu_sale_helpdesk_manager"
-msgid "Sale Helpdesk"
+msgid "Sale Helpdesks"
 msgstr "Soporte de venta"
 
 msgctxt "model:res.group,name:group_sale_helpdesk"
