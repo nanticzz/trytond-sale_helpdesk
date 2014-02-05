@@ -46,9 +46,13 @@ msgctxt "model:ir.action,name:act_sale_helpdesk"
 msgid "Helpdesks"
 msgstr "Suport"
 
+msgctxt "model:ir.action,name:act_sale_helpdesk_form2"
+msgid "Sale Helpdesks"
+msgstr "Suport de vendes"
+
 msgctxt "model:ir.action,name:act_sale_helpdesk_manager"
 msgid "Sale Helpdesks"
-msgstr "Suport de venda"
+msgstr "Suport de vendes"
 
 msgctxt "model:ir.action,name:act_sale_helpdesk_sale_form"
 msgid "Helpdesks"
@@ -84,7 +88,7 @@ msgstr "Suport"
 
 msgctxt "model:ir.ui.menu,name:menu_sale_helpdesk_manager"
 msgid "Sale Helpdesks"
-msgstr "Suport de venda"
+msgstr "Suport de vendes"
 
 msgctxt "model:res.group,name:group_sale_helpdesk"
 msgid "Helpdesk Sale"
