@@ -8,11 +8,11 @@ msgstr "Vendes"
 
 msgctxt "field:sale.sale.helpdesk,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:sale.sale.helpdesk,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:sale.sale.helpdesk,helpdesk:"
 msgid "Helpdesk"
@@ -24,7 +24,7 @@ msgstr "ID"
 
 msgctxt "field:sale.sale.helpdesk,rec_name:"
 msgid "Name"
-msgstr "Nom del camp"
+msgstr "Nom"
 
 msgctxt "field:sale.sale.helpdesk,sale:"
 msgid "Sale"
