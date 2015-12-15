@@ -132,6 +132,10 @@ msgctxt "model:sale.sale.helpdesk,name:"
 msgid "Sale - Helpdesk"
 msgstr "Soporte - Venta"
 
+msgctxt "selection:getmail.server,kind:"
+msgid "Sale"
+msgstr "Venta"
+
 msgctxt "selection:helpdesk,kind:"
 msgid "Sale"
 msgstr "Venta"
