@@ -4,7 +4,7 @@
 from trytond.pool import Pool
 from . import configuration
 from . import helpdesk
-from . import *
+from . import getmail
 
 
 def register():
