@@ -5,13 +5,11 @@ from trytond.model import ModelSQL, fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
-__all__ = [
-    'Helpdesk', 'SaleHelpdesk'
-    ]
-__metaclass__ = PoolMeta
+__all__ = ['Helpdesk', 'SaleHelpdesk']
 
 
 class Helpdesk:
+    __metaclass__ = PoolMeta
     __name__ = 'helpdesk'
     sales = fields.Many2Many('sale.sale.helpdesk', 'helpdesk', 'sale',
         'Sales', states={
