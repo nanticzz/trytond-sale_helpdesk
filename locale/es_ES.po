@@ -7,8 +7,8 @@ msgid "Sales"
 msgstr "Ventas"
 
 msgctxt "field:helpdesk.configuration,smtp_sale:"
-msgid "SMTP Sales Server"
-msgstr "Servidor SMTP de vendes "
+msgid "SMTP Sale Server"
+msgstr "Servidor SMTP de venda"
 
 msgctxt "field:sale.sale.helpdesk,create_date:"
 msgid "Create Date"
