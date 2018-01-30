@@ -16,7 +16,7 @@ class Helpdesk:
             'readonly': Eval('state').in_(['cancel', 'done']),
             'invisible': ~Eval('kind').in_(['sale', 'generic']),
             },
-        depends=['state'])
+        depends=['state', 'kind'])
 
     @classmethod
     def __setup__(cls):
