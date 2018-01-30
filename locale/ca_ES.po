@@ -139,3 +139,7 @@ msgstr "Suport - Venda"
 msgctxt "selection:helpdesk,kind:"
 msgid "Sale"
 msgstr "Venda"
+
+msgctxt "view:helpdesk:"
+msgid "Sale"
+msgstr "Venda"
