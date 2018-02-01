@@ -7,16 +7,16 @@ msgid "Sales"
 msgstr "Vendes"
 
 msgctxt "field:helpdesk.configuration,smtp_sale:"
-msgid "SMTP Sales Server"
-msgstr "Servidor SMTP de vendes"
+msgid "SMTP Sale Server"
+msgstr "Servidor SMTP de venda"
 
 msgctxt "field:sale.sale.helpdesk,create_date:"
 msgid "Create Date"
-msgstr "Data creació"
+msgstr "Data de creació"
 
 msgctxt "field:sale.sale.helpdesk,create_uid:"
 msgid "Create User"
-msgstr "Usuari creació"
+msgstr "Usuari de creació"
 
 msgctxt "field:sale.sale.helpdesk,helpdesk:"
 msgid "Helpdesk"
@@ -36,13 +36,17 @@ msgstr "Venda"
 
 msgctxt "field:sale.sale.helpdesk,write_date:"
 msgid "Write Date"
-msgstr "Data modificació"
+msgstr "Data de modificació"
 
 msgctxt "field:sale.sale.helpdesk,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
-msgctxt "model:ir.action,name:act_alls_sale_helpdesk"
+msgctxt "model:ir.action,name:"
+msgid "All Helpdesks"
+msgstr "Tots els suports"
+
+msgctxt "model:ir.action,name:act_all_sale_helpdesk"
 msgid "All Helpdesks"
 msgstr "Tots els suports"
 
@@ -137,5 +141,9 @@ msgid "Sale"
 msgstr "Venda"
 
 msgctxt "selection:helpdesk,kind:"
+msgid "Sale"
+msgstr "Venda"
+
+msgctxt "view:helpdesk:"
 msgid "Sale"
 msgstr "Venda"

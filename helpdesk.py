@@ -5,9 +5,7 @@ from trytond.model import ModelSQL, fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
-__all__ = [
-    'Helpdesk', 'SaleHelpdesk'
-    ]
+__all__ = ['Helpdesk', 'SaleHelpdesk']
 
 
 class Helpdesk:
@@ -18,7 +16,7 @@ class Helpdesk:
             'readonly': Eval('state').in_(['cancel', 'done']),
             'invisible': ~Eval('kind').in_(['sale', 'generic']),
             },
-        depends=['state'])
+        depends=['state', 'kind'])
 
     @classmethod
     def __setup__(cls):
@@ -26,6 +24,13 @@ class Helpdesk:
         value = ('sale', 'Sale')
         if not value in cls.kind.selection:
             cls.kind.selection.append(value)
+
+    @classmethod
+    def view_attributes(cls):
+        return super(Helpdesk, cls).view_attributes() + [
+            ('//page[@id="sale"]', 'states', {
+                    'invisible': ~Eval('kind').in_(['sale', 'generic']),
+                    })]
 
 
 class SaleHelpdesk(ModelSQL):

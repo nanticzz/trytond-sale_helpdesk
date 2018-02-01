@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of the sale_helpdesk module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- relate sale to helpdesk -->
+        <record model="ir.action.act_window" id="act_sale_helpdesk_sale_form">
+          <field name="name">Helpdesks</field>
+          <field name="res_model">helpdesk</field>
+          <field name="domain"
+              eval="[('kind', '=', 'sale'), ('sales', '=', Eval('active_id'))]"
+              pyson="1"/>
+          <field name="context"
+              eval="{'kind': 'sale'}"
+              pyson="1"/>
+        </record>
+        <record model="ir.action.keyword" id="act_open_sale_helpdesk_sale_keyword1">
+          <field name="keyword">form_relate</field>
+          <field name="model">sale.sale,-1</field>
+          <field name="action" ref="act_sale_helpdesk_sale_form"/>
+        </record>
+    </data>
+</tryton>
