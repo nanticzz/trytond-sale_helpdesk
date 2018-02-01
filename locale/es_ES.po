@@ -7,16 +7,16 @@ msgid "Sales"
 msgstr "Ventas"
 
 msgctxt "field:helpdesk.configuration,smtp_sale:"
-msgid "SMTP Sales Server"
-msgstr "Servidor SMTP de vendes "
+msgid "SMTP Sale Server"
+msgstr "Servidor SMTP de venda"
 
 msgctxt "field:sale.sale.helpdesk,create_date:"
 msgid "Create Date"
-msgstr "Fecha creación"
+msgstr "Fecha de creación"
 
 msgctxt "field:sale.sale.helpdesk,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:sale.sale.helpdesk,helpdesk:"
 msgid "Helpdesk"
@@ -36,13 +36,17 @@ msgstr "Venta"
 
 msgctxt "field:sale.sale.helpdesk,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:sale.sale.helpdesk,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
-msgctxt "model:ir.action,name:act_alls_sale_helpdesk"
+msgctxt "model:ir.action,name:"
+msgid "All Helpdesks"
+msgstr "Todos los soportes"
+
+msgctxt "model:ir.action,name:act_all_sale_helpdesk"
 msgid "All Helpdesks"
 msgstr "Todos los soportes"
 
@@ -132,10 +136,10 @@ msgctxt "model:sale.sale.helpdesk,name:"
 msgid "Sale - Helpdesk"
 msgstr "Soporte - Venta"
 
-msgctxt "selection:getmail.server,kind:"
+msgctxt "selection:helpdesk,kind:"
 msgid "Sale"
 msgstr "Venta"
 
-msgctxt "selection:helpdesk,kind:"
+msgctxt "view:helpdesk:"
 msgid "Sale"
 msgstr "Venta"

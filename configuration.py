@@ -5,9 +5,9 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['HelpdeskConfiguration']
-__metaclass__ = PoolMeta
 
 
 class HelpdeskConfiguration:
+    __metaclass__ = PoolMeta
     __name__ = 'helpdesk.configuration'
-    smtp_sale = fields.Many2One('smtp.server', 'SMTP Sales Server')
+    smtp_sale = fields.Many2One('smtp.server', 'SMTP Sale Server')
