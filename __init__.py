@@ -12,5 +12,8 @@ def register():
         configuration.HelpdeskConfiguration,
         helpdesk.Helpdesk,
         helpdesk.SaleHelpdesk,
+        module='sale_helpdesk', type_='model')
+    Pool.register(
         getmail.GetmailServer,
+        depends=['getmail'],
         module='sale_helpdesk', type_='model')
