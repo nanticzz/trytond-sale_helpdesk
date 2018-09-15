@@ -8,8 +8,7 @@ from trytond.pyson import Eval
 __all__ = ['Helpdesk', 'SaleHelpdesk']
 
 
-class Helpdesk:
-    __metaclass__ = PoolMeta
+class Helpdesk(metaclass=PoolMeta):
     __name__ = 'helpdesk'
     sales = fields.Many2Many('sale.sale.helpdesk', 'helpdesk', 'sale',
         'Sales', states={
